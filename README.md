@@ -9,7 +9,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/llama-3-blue" alt="llama-3" />
     <img src="https://img.shields.io/badge/huggingface.co-🤗-blue" alt="huggingface.co" />
-    <img src="https://img.shields.io/badge/language-ZH_CN-8A2BE2" alt="huggingface.co" />
+    <img src="https://img.shields.io/badge/language-ZH_CN-8A2BE2" alt="language" />
     <img src="https://img.shields.io/github/license/SYSU-MUCFC-FinTech-Research-Center/ZhiLu" alt="license" />
 </p>
 
