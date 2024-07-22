@@ -1,8 +1,4 @@
-<p align="center">
-    <img alt="logo" src="https://fastly.jsdelivr.net/npm/@vant/assets/logo.png" width="120" height="120" style="margin-bottom: 10px;">
-</p>
-
-<h1 align="center">ZhiLu-2-8B-Instruct</h1>
+<h1 align="center">ZhiLu(智鹿)</h1>
 
 <p align="center">&nbsp;</p>
 
@@ -17,7 +13,7 @@
     &nbsp;
   ·
   &nbsp;
-  <a href="https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center/ZhiLu-2-8B-Instruct">🤗 SYSU-MUCFC-FinTech-Research-Center/ZhiLu-2-8B-Instruct · Hugging Face</a>
+  <a href="https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center/ZhiLu-2-8B-Instruct">🤗 ZhiLu-2-8B-Instruct</a>
   &nbsp;
   ·
   &nbsp;
@@ -27,7 +23,12 @@
 
 ---
 
-智鹿 2 是一款基于 llama3 微调的中文消费金融领域对话大模型。与智鹿 1 相比，智鹿 2 在多个方面进行了显著提升。我们不仅收集了全新的高质量指令数据进行对齐，还创新性地设计了独特的数据合成方法，并将大量合成数据应用于模型训练。通过这些努力，智鹿 2 在性能上取得了显著的突破，展示了卓越的性能。
+智鹿是一系列基于不同模型进行二次训练的中文消费金融领域对话大模型，这些模型的训练包含大量中英文语料进行增量预训练，同时使用高质量指令数据进行对齐，并且整合了人类价值观对齐相关数据和训练tricks，并且还加入了大量的的合成数据用于模型训练，我们的目标是在保持通用能力的前提下，显著提升金融领域的能力。
+
+## 🌈 News
+
+- [2024.07.22] 开源ZhiLu-2-8B对话大模型。<a href="https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center/ZhiLu-2-8B-Instruct">🤗 ZhiLu-2-8B-Instruct</a>
+- [2023.10.28] 开源ZhiLu-1-13B对话大模型。<a href="https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center/ZhiLu-13B-Instruct">🤗 ZhiLu-13B-Instruct</a>
 
 ## ✨ 特性
 
@@ -101,7 +102,7 @@ while True:
 
 我们借鉴已有的数据合成方法，提出了多个新的数据合成方法，并把合成的数据用于了模型新一轮的微调，微调后的模型性能有了明显的提高。
 
-1. 我们改进了 evol-instruct(<a href="https://github.com/nlpxucan/WizardLM">nlpxucan/WizardLM: LLMs build upon Evol Insturct: WizardLM, WizardCoder, WizardMath</a>)方法，使其可以用于多种类型的指令数据合成，并合成了数万条数据用于模型训练。
+1. 我们改进了 <a href="https://github.com/nlpxucan/WizardLM">evol-instruct</a> 方法，使其可以用于多种类型的指令数据合成，并合成了数万条数据用于模型训练。
 2. 我们提出了一个全新的数据合成方法，对于不确定性较高的数据，我们让模型通过搜索引擎进行检索，并利用检索到的内容辅助回答问题，如果不确定性降低或预测结果反转，则为模型注入检索的知识。结合检索到的知识进行二次合成，生成了一批与知识相关的预训练数据与指令数据，并进行混合微调，实现模型的自我进化。
 
 由于成本和时间问题，此次发布 ZhiLu-2 模型其合成数据的占比并没有很高，我们将持续生成全新的合成数据并用于模型的训练，ZhiLu-2 将不断进步，敬请期待。
@@ -189,9 +190,11 @@ A:中国象棋是一种双人棋类游戏，由32个棋子组成，包括16个�
 
 本项目主要基于 llama3 开源项目进行二次开发，在此对相关项目和研究开发人员表示感谢。
 
-## 📄 免责声明
+## 📄 免责声明与许可协议
 
-由于模型受概率随机性因素影响及易被误导，无法保证输出内容的准确性。用户在使用智鹿模型时需自行承担潜在风险，并保持警醒。我们建议用户对模型输出的信息进行独立验证和判断，并根据个人需求和具体情境做出决策。使用者不得将本模型用于任何可能给国家和社会带来危害的用途以及用于任何未经过安全评估和备案的服务。我们不承担开源模型及其生成的内容导致的安全风险、知识产权风险、舆情风险或发生任何模型被误导、滥用、不当利用及传播而产生的风险和责任。
+本仓库的代码依照[Apache-2.0](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu/blob/main/LICENSE)协议开源。模型权重对学术研究完全开放；使用者也可通过[申请表](https://wj.qq.com/s2/13390238/fea9/)申请、经同意并发放商用授权证书后免费用于商业用途。
+尽管我们在模型训练过程中尽力确保数据的合规性和准确性，但由于模型受概率随机性因素影响及易被误导，无法保证输出内容的准确性。因此，使用者在使用本模型及其生成的内容时，应自行审慎识别后作出独立判断，必要时应征询专业人士意见，并由使用者承担使用风险。使用者也不得将本模型用于任何可能给国家和社会带来危害的用途以及用于任何未经过安全评估和备案的服务。我们不承担开源模型及其生成的内容导致的安全风险、知识产权风险、舆情风险或发生任何模型被误导、滥用、不当利用及传播而产生的风险和责任。
+
 
 ## 📜 总结
 
