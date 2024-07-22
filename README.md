@@ -7,18 +7,14 @@
 <p align="center">智鹿2是一款基于llama3微调的中文消费金融领域对话大模型</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/llama-3-blue
-        " alt="llama-3" />
-    <img src="https://img.shields.io/badge/huggingface.co-🤗-blue
-        " alt="huggingface.co" />
-    <img src="https://img.shields.io/badge/language-ZH_CN-8A2BE2
-        " alt="huggingface.co" />
-    <img src="https://img.shields.io/github/license/SYSU-MUCFC-FinTech-Research-Center/ZhiLu
-    " alt="license" />
+    <img src="https://img.shields.io/badge/llama-3-blue" alt="llama-3" />
+    <img src="https://img.shields.io/badge/huggingface.co-🤗-blue" alt="huggingface.co" />
+    <img src="https://img.shields.io/badge/language-ZH_CN-8A2BE2" alt="huggingface.co" />
+    <img src="https://img.shields.io/github/license/SYSU-MUCFC-FinTech-Research-Center/ZhiLu" alt="license" />
 </p>
 
 <p align="center">
-  <a href="https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center/ZhiLu-2-8B-Instruct">🤗 huggingface.co</a>
+  <a href="https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center/ZhiLu-2-8B-Instruct">🤗 模型下载</a>
   &nbsp;
   ·
   &nbsp;
