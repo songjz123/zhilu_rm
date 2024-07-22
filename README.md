@@ -14,11 +14,13 @@
 </p>
 
 <p align="center">
+    &nbsp;
+  ·
+  &nbsp;
   <a href="https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center/ZhiLu-2-8B-Instruct">🤗 模型下载</a>
   &nbsp;
   ·
   &nbsp;
-  <a href="./README.md">中文介绍</a>
 </p>
 
 ---
