@@ -110,8 +110,11 @@ while True:
 - [CMMLU](https://github.com/haonan-li/CMMLU) 是一个综合性的中文评估基准，专门用于评估语言模型在中文语境下的知识和推理能力。CMMLU涵盖了从基础学科到高级专业水平的67个主题。
 
 其结果如下：
-ceval：待补图
-cmmlu：待补图
+#### ceval：
+<img width="751" alt="image" src="https://github.com/user-attachments/assets/bac1f8dd-714e-41a6-b395-3cfc6f18181b">
+
+#### cmmlu：
+<img width="460" alt="image" src="https://github.com/user-attachments/assets/474d8fd5-f03a-45cd-b927-2264d283a235">
 
 
 智鹿系列模型对比：
