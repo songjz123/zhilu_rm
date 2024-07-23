@@ -117,7 +117,7 @@ while True:
 <img width="460" alt="image" src="https://github.com/user-attachments/assets/474d8fd5-f03a-45cd-b927-2264d283a235">
 
 
-智鹿系列模型对比：
+### 智鹿系列模型对比：
 
 
 | ceval      | STEM | Social Science | Humanities | Others | avg  | avg(hard) |
