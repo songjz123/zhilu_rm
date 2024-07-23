@@ -30,7 +30,7 @@
 - [2024.07.22] 开源ZhiLu-2-8B对话大模型。<a href="https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center/ZhiLu-2-8B-Instruct">🤗 ZhiLu-2-8B-Instruct</a>
 - [2023.10.28] 开源ZhiLu-1-13B对话大模型。<a href="https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center/ZhiLu-13B-Instruct">🤗 ZhiLu-13B-Instruct</a>
 
-## ✨ 特性
+## ✨ 持续更新
 
 - 🚀 更多合成数据加入
 - 💪 opencompass 榜单评测
