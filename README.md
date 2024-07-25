@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2d068b9b-704a-42aa-afde-629b43e415bb)<h1 align="center">ZhiLu2(智鹿2)</h1>
+<h1 align="center">ZhiLu2(智鹿2)</h1>
 
 <p align="center">&nbsp;</p>
 
@@ -78,9 +78,6 @@ while True:
 相比于第一版智鹿，我们收集了全新的指令微调数据，并且加入了合成数据来进行训练，我们相信合成数据的使用会带来意想不到的惊喜。
 
 我们使用 DoRA 进行高效训练，我们在实验了多种前沿的微调技术后发现，dora的训练量跟lora基本一致，可以在不增加显存的情况下带来更好的性能提升。
-<div align="center">
-    <img width="891" alt="Image 1" src="https://github.com/user-attachments/assets/97ba9af5-234e-4d96-936e-4ee176601cd7">
-</div>
 
 使用[llamafactory](https://github.com/hiyouga/LLaMA-Factory)。
 
