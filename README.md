@@ -111,11 +111,15 @@ while True:
 
 其结果如下：
 ### Ceval：
-<img width="891" alt="08a85ced4fbe42e6848666c401c9b23" src="https://github.com/user-attachments/assets/9252d4f5-e0f9-46db-85af-9c98d452b3f6">
+<div align="center">
+    <img width="891" alt="Image 1" src="https://github.com/user-attachments/assets/9252d4f5-e0f9-46db-85af-9c98d452b3f6">
+</div>
 
 
 ### cmmlu：
-<img width="491" alt="image" src="https://github.com/user-attachments/assets/4ea24e3b-f04e-4214-83f8-33b03ff5ecfa">
+<div align="center">
+    <img width="491" alt="Image 2" src="https://github.com/user-attachments/assets/4ea24e3b-f04e-4214-83f8-33b03ff5ecfa">
+</div>
 
 
 
