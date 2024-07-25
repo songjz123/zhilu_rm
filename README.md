@@ -79,7 +79,7 @@ while True:
 
 我们使用 DoRA 进行高效训练，我们在实验了多种前沿的微调技术后发现，dora的训练量跟lora基本一致，可以在不增加显存的情况下带来更好的性能提升。
 <div align="center">
-    <img width="891" alt="Image 1" src="[https://github.com/user-attachments/assets/9252d4f5-e0f9-46db-85af-9c98d452b3f6](https://github.com/user-attachments/assets/97ba9af5-234e-4d96-936e-4ee176601cd7)">
+    <img width="891" alt="Image 1" src="https://github.com/user-attachments/assets/97ba9af5-234e-4d96-936e-4ee176601cd7">
 </div>
 
 使用[llamafactory](https://github.com/hiyouga/LLaMA-Factory)。
