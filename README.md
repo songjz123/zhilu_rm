@@ -1,4 +1,4 @@
-<h1 align="center">ZhiLu2(智鹿2)</h1>
+![image](https://github.com/user-attachments/assets/2d068b9b-704a-42aa-afde-629b43e415bb)<h1 align="center">ZhiLu2(智鹿2)</h1>
 
 <p align="center">&nbsp;</p>
 
@@ -77,10 +77,20 @@ while True:
 
 相比于第一版智鹿，我们收集了全新的指令微调数据，并且加入了合成数据来进行训练，我们相信合成数据的使用会带来意想不到的惊喜。
 
-我们使用 DoRA 进行高效训练，并通过大量实验确定了训练参数，部分超参数选择如下：
+我们使用 DoRA 进行高效训练，我们在实验了多种前沿的微调技术后发现，dora的训练量跟lora基本一致，可以在不增加显存的情况下带来更好的性能提升。
+<div align="center">
+    <img width="891" alt="Image 1" src="https://github.com/user-attachments/assets/9252d4f5-e0f9-46db-85af-9c98d452b3f6">
+</div>
 
-使用 packing，FlashAttention-2 技术进行加速训练。
+使用[llamafactory](https://github.com/hiyouga/LLaMA-Factory)
 
+使用 packing，FlashAttention-2 技术进行加速训练，大大提高了资源的利用率，缩短了训练时间。
+
+我们使用DPO来训练模型，其使用便捷，成效快，可以达到近似RLHF的偏好对齐效果，确保模型的输出安全、无害
+
+我们使用[merging](https://github.com/arcee-ai/mergekit)避免训练后模型的灾难性遗忘，平衡模型在各个任务上的能力
+
+我们设计了新的框架，让模型自我生成训练数据，实现模型的自我进化。
 
 ## 数据配比
 
